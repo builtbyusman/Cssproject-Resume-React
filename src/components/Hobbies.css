@@ -1,0 +1,22 @@
+.hobbies h2 {
+    text-transform: uppercase;
+    color: #5b95e5;
+    line-height: 2rem;
+}
+
+.hobbies hr {
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.hobbies ul {
+    padding-left: 15px;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.hobbies ul li::marker {
+    color: #5b95e5;
+}

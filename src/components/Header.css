@@ -1,0 +1,75 @@
+header {
+    height: 200px;
+    width: 700px;
+    display: flex;
+    justify-content: start;
+}
+
+.profile-image-container {
+    height: 200px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    height: 190px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.resume-info {
+    height: 200px;
+    width: 100%;
+}
+
+.resume-info {
+    padding: 30px 20px;
+}
+
+.resume-info h1 {
+    text-transform: uppercase;
+}
+
+.resume-info h1 span {
+    color: #5b95e5;
+}
+
+.resume-info .Profession {
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.resume-info .addres {
+    font-size: 0.9rem;
+}
+
+
+.resume-info .contact-info {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.resume-info .contact-info div {
+    width: 50%;
+    display: flex;
+}
+
+.resume-info .contact-info div:nth-child(even) {
+    padding-left: 10px;
+}
+
+.icon {
+    font-size: 1.2rem;
+    margin-right: 5px;
+    color: #5b95e5;
+}
+
+.resume-info .icon {
+    font-size: 1rem;
+}

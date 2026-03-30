@@ -1,0 +1,25 @@
+.languages {
+    padding: 0 30px;
+}
+
+.languages h2 {
+    text-transform: uppercase;
+    color: #5b95e5;
+    line-height: 2rem;
+}
+
+.languages hr {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.languages ul {
+    padding-left: 15px;
+    line-height: 1.3rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.languages ul li::marker {
+    color: #5b95e5;
+}

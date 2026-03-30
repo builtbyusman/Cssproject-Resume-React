@@ -1,0 +1,24 @@
+.education {
+    margin: 0 30px;
+}
+
+.education h2 {
+    text-transform: uppercase;
+    color: #5b95e5;
+    line-height: 2rem;
+}
+
+.education hr {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.education>div ul {
+    padding-left: 15px;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.education>div ul li::marker {
+    color: #5b95e5;
+}

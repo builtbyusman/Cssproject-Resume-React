@@ -1,0 +1,18 @@
+.object {
+    width: 100%;
+    height: auto;
+    padding: 20px 30px 10px;
+}
+
+.object * {
+    margin: 5px 0;
+}
+
+.object h2 {
+    text-transform: uppercase;
+    color: #5b95e5;
+}
+
+hr {
+    margin-top: 5px;
+}

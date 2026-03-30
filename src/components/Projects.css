@@ -1,0 +1,32 @@
+.projects h2 {
+   text-transform: uppercase;
+   color: #5b95e5;
+   line-height: 2rem;
+}
+
+.projects hr {
+    margin-top: 5px;
+    width: 90%;
+}
+
+.projects >  div {
+    height: auto;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.projects > div ul  {
+    padding-left: 15px;
+}
+
+.projects > div ul li::marker {
+   color: #5b95e5;
+}
+
+.projects > div ul li {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+.projects > div h4 {
+    text-transform: capitalize;
+}
